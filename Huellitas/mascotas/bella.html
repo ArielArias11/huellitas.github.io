@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Huellitas | Adopción de Mascotas</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="adopciones.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+<header class="header">
+    <h1>🐾 Huellitas</h1>
+    <nav>
+        <a href="../principal/index.html">Inicio</a>
+        <a href="../principal/mascotas.html">Mascotas</a>
+        <a href="../principal/programas.html">Programas</a>
+        <a href="../principal/nosotros.html">Nosotros</a>
+        <a href="../principal/contacto.html">Contacto</a>
+    </nav>
+</header>
+
+<div class="contenedor-principal-adopcion">
+    <main class="adop-contenedor">
+        <section class="adop-cabecera">
+            <div class="adop-marco-foto">
+                <img src="https://plus.unsplash.com/premium_photo-1667673941713-ad4d4751c93b?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Bella">
+            </div>
+            <div class="adop-info-basica">
+                <div class="adop-badge-container">
+                    <span class="adop-etiqueta">Busca un hogar</span>
+                </div>
+                <h1 class="adop-nombre" data-tipo="perro">Bella</h1>
+                <p class="adop-lema">"Una gigante noble con mucha ternura"</p>
+                
+                <div class="adop-mini-stats">
+                    <span><i class="fas fa-history"></i> 4 Años</span>
+                    <span><i class="fas fa-dog"></i> Husky Siberiana</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="adop-cuerpo">
+            <div class="adop-cuadricula">
+                <div class="adop-dato-caja">
+                    <i class="fas fa-birthday-cake"></i>
+                    <small>Edad</small>
+                    <strong>4 Años</strong>
+                </div>
+                <div class="adop-dato-caja">
+                    <i class="fas fa-ruler-combined"></i>
+                    <small>Tamaño</small>
+                    <strong>Grande</strong>
+                </div>
+                <div class="adop-dato-caja">
+                    <i class="fas fa-venus-mars"></i>
+                    <small>Sexo</small>
+                    <strong>Hembra</strong>
+                </div>
+                <div class="adop-dato-caja">
+                    <i class="fas fa-shield-alt"></i>
+                    <small>Salud</small>
+                    <strong>Excelente</strong>
+                </div>
+            </div>
+
+            <div class="adop-historia">
+                <h2 class="adop-titulo-seccion">Conoce su historia</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia maiores pariatur minus tempora nostrum temporibus reiciendis harum quod dignissimos vel id, aliquid possimus doloribus veniam omnis enim quaerat magni similique est dolore nihil? Et adipisci quae facilis, natus maxime nulla nisi eius aut voluptates dolorum?</p>
+                
+                <h3 class="adop-subtitulo-seccion">Personalidad y Cuidados</h3>
+                <ul class="adop-lista-detalles">
+                    <li><i class="fas fa-check-circle"></i> Lorem ipsum dolor sit amet consectetur, elit.</li>
+                    <li><i class="fas fa-check-circle"></i> Lorem ipsum dolor, sit amet consectetur adipisicing elit.</li>
+                    <li><i class="fas fa-check-circle"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt!</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="adop-final">
+            <a href="#" class="adop-btn-principal">
+            <i class="fas fa-heart"></i> Quiero Adoptarla
+            </a>
+            <a href="../principal/mascotas.html#galeria" class="adop-btn-volver">
+                Volver a la galería
+            </a>
+        </section>
+    </main>
+</div>
+
+<div class="contenedor-carrito-flotante">
+    <button class="boton-patita">
+        <i class="fas fa-paw"></i>
+        <span class="contador-carrito">0</span>
+    </button>
+    
+    <div class="ventana-carrito">
+        <h3>Mis Adopciones</h3>
+        <ul class="lista-adopcion">
+            </ul>
+        <button onclick="limpiarCarrito()" class="btn-vaciar">Eliminar mis adopciones</button>
+    </div>
+</div>
+
+<footer class="footer-principal">
+        <div class="footer-contenedor">
+            <div class="footer-cuadricula">
+                
+                <div class="footer-columna">
+                    <h2 class="footer-marca"><i class="fas fa-paw"></i> Huellitas</h2>
+                    <p class="footer-texto">
+                        Dedicados a conectar corazones. Cada adopción es una vida salvada y un hogar lleno de alegría para siempre.
+                    </p>
+                    <div class="footer-redes">
+                        <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" title="TikTok"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-columna">
+                    <h3 class="footer-titulo">Menú Animal</h3>
+                    <ul class="footer-lista">
+                        <li><a href="../principal/mascotas.html">Mascotas</a></li>
+                        <li><a href="../principal/programas.html">Programas</a></li>
+                        <li><a href="../principal/nosotros.html">Nosotros</a></li>
+                        <li><a href="../principal/contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-columna">
+                    <h3 class="footer-titulo1">Únete a la manada</h3>
+                    <p class="footer-texto">Recibe noticias de nuevos rescates y eventos especiales.</p>
+                    <form class="footer-formulario">
+                        <input type="email" class="footer-entrada" placeholder="Tu correo electrónico" required>
+                        <button type="submit" class="footer-boton">Enviar</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="footer-inferior">
+            <div class="footer-contenedor footer-barra-final">
+                <p>&copy; 2026 Huellitas. Todos los derechos reservados.</p>
+                <div class="footer-iconos-decorativos">
+                    <i class="fas fa-dog"></i>
+                    <i class="fas fa-cat"></i>
+                    <i class="fas fa-bone"></i>
+                </div>
+            </div>
+        </div>
+</footer>
+
+<!-- JAVA -->
+<script>
+// Actualiza la patita
+function actualizarInterfazCarrito() {
+    const listaUI = document.querySelector('.lista-adopcion');
+    const contadorUI = document.querySelector('.contador-carrito');
+    const carrito = JSON.parse(localStorage.getItem('carritoMascotas')) || [];
+    
+    // Actualiza el número sobre la patita
+    if (contadorUI) contadorUI.innerText = carrito.length;
+
+    // Nombres de las mascotas conseguidas
+    if (listaUI) {
+        listaUI.innerHTML = "";
+        if (carrito.length === 0) {
+            listaUI.innerHTML = "<li>No hay mascotas elegidas</li>";
+        } else {
+            carrito.forEach(mascota => {
+                const li = document.createElement('li');     
+                const emoji = mascota.tipo === 'perro' ? '🐶' : '🐱';
+                li.innerHTML = `${emoji} ${mascota.nombre}`;
+                listaUI.appendChild(li);
+            });
+        }
+    }
+}
+
+// Adopciones
+const botonAdopcion = document.querySelector('.adop-btn-principal');
+const nombreMascota = document.querySelector('.adop-nombre').innerText.trim();
+
+function confirmarAdopcion(e) {
+    e.preventDefault();
+    const tipoMascota = document.querySelector('.adop-nombre').getAttribute('data-tipo');
+
+    if (confirm("¿Quieres adoptar a " + nombreMascota + "?")) {
+        let carrito = JSON.parse(localStorage.getItem('carritoMascotas')) || [];
+
+        const nuevaMascota = {
+            nombre: nombreMascota,
+            tipo: tipoMascota
+        };
+
+        if (!carrito.some(m => m.nombre === nombreMascota)) {
+            carrito.push(nuevaMascota);
+            localStorage.setItem('carritoMascotas', JSON.stringify(carrito));
+        }
+
+        // Mascota adoptadq
+        botonAdopcion.innerHTML = '<i class="fas fa-check"></i> ¡Mascota Adoptada!';
+        botonAdopcion.style.backgroundColor = "#2D6A4F";
+        botonAdopcion.style.pointerEvents = "none";
+        actualizarInterfazCarrito();
+        alert(("¡Felicidades has adoptado a " + nombreMascota + "!"));
+    }
+}
+
+// Adoptar
+if (botonAdopcion) {
+    botonAdopcion.addEventListener('click', confirmarAdopcion);
+}
+
+// Abrir/cerrar la ventana
+document.querySelector('.boton-patita').addEventListener('click', () => {
+    const ventana = document.querySelector('.ventana-carrito');
+    ventana.style.display = (ventana.style.display === 'block') ? 'none' : 'block';
+});
+
+// Vaciar el carrito
+function limpiarCarrito() {
+    if(confirm("¿Deseas eliminar a tus mascotas adoptadas?")) {
+        localStorage.removeItem('carritoMascotas');
+        location.reload(); 
+    }
+}
+document.addEventListener('DOMContentLoaded', actualizarInterfazCarrito);
+</script>
+
+</body>
+</html>
